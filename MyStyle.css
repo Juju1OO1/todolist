@@ -1,0 +1,256 @@
+@charset "utf-8";
+/*全域選擇器*/
+
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+.wrapper {
+    background-color: blanchedalmond;
+    min-height: 1000px;
+    width: 100%;
+}
+
+.main{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    min-height: 300px;
+    border: 3px rgb(129, 66, 20) solid
+}
+
+.mask{
+    display: inline-block;
+    position: inherit;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: gray ;
+    opacity: 70%;
+    width: 100%;
+    min-height: 300px;
+}
+
+.maskbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+
+}
+
+
+.title{
+    text-align: center;
+    font-size: 50px;
+}
+
+.row{
+    display: inline-block;
+    width: 100%;
+   
+}
+
+.dis{
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+}
+
+input[type=text] {
+    background-color: #e9e3db;
+    color: rgb(135, 118, 118);
+    outline: none;
+    height: 100%;
+    font-size: 30px;
+    border-radius: 20px;
+    width:80%;
+    position: relative;
+    border: none;
+    
+
+  }
+
+input[type=text]:focus {
+    background-color: #ffffff;
+    color: rgb(76, 70, 70);
+  }
+
+
+.option{
+    width: 100%;
+    display: block;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.a-btn{
+    height: 50px;
+    width: 15%;
+    display: flex;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(205, 155, 108);
+    cursor: pointer;
+    font-size: larger;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.a-btn:hover{
+    background-color: rgb(149, 206, 219);
+}
+
+
+.rem-btn{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(205, 155, 108);
+    cursor: pointer;
+    font-size: larger;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    left:50%;
+    top: 50%;
+    transform: translate(-60%,-50%);
+    
+}
+
+.rem-btn:hover{
+    background-color: rgb(72, 78, 79);
+}
+
+.d-btn{
+    height: 50px;
+    width: 15%;
+    display: flex;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(205, 155, 108);
+    cursor: pointer;
+    font-size: medium;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+
+
+.d-btn:hover{
+    background-color: rgb(225, 123, 121);
+}
+
+
+.e-btn{
+    height: 50px;
+    width: 15%;
+    display: flex;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(205, 155, 108);
+    cursor: pointer;
+    font-size: large;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.e-btn:hover{
+    background-color: rgb(158, 215, 148);
+}
+
+
+.okay-btn{
+    height: 50px;
+    width: 20%;
+    display: flex;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(205, 155, 108);
+    cursor: pointer;
+    font-size: medium;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+
+
+
+.okay-btn:hover{
+    background-color: rgb(158, 215, 148);
+}
+
+
+.list{
+    background-color: rgb(233, 213, 173);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid rgb(172, 145, 96);
+}
+
+.todo{
+    font-size: 30px;
+    width: 70%;
+}
+
+
+.editbox{
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+/*格式*/
+
+.margin{
+    margin: 20px;
+}
+
+.disNone{
+	display:none;
+}
+
+.padding{
+    padding: 20px;
+}
